@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Harmony Dessert | Cheesecake & Desserts — Vũng Tàu</title>
+<meta name="description" content="Harmony Dessert — những chiếc cheesecake hài hòa, vừa đủ ngọt, vừa đủ dịu dàng tại Vũng Tàu.">
+<style>
+:root{--ink:#21343a;--muted:#708086;--blue:#a8cfdb;--pale:#edf7f8;--cream:#fffdf9;--line:#e5eeee;--white:#fff;--gold:#c4a574}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,Arial,sans-serif;line-height:1.65}
+a{text-decoration:none;color:inherit}.wrap{max-width:1160px;margin:auto;padding:0 24px}
+.top{font-size:12px;text-align:center;padding:8px;background:var(--ink);color:#fff;letter-spacing:.06em}
+nav{position:sticky;top:0;z-index:20;background:rgba(255,253,249,.92);backdrop-filter:blur(15px);border-bottom:1px solid var(--line)}
+.navin{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-family:Georgia,serif;font-size:25px;letter-spacing:.08em}.brand small{font:10px Arial;display:block;letter-spacing:.28em;color:#6c9aa8;margin-top:-3px}
+.links{display:flex;gap:28px;font-size:13px;font-weight:700}.links a:hover{color:#5f9aab}.navbtn{background:var(--ink);color:#fff;padding:10px 16px;border-radius:999px}
+.hero{background:linear-gradient(135deg,#eaf6f8 0%,#fffdf9 70%);padding:80px 0 90px}.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:800;color:#6797a5}.hero h1{font:500 clamp(48px,7vw,84px)/.95 Georgia,serif;margin:18px 0 24px}.hero p{max-width:590px;font-size:18px;color:var(--muted)}
+.actions{margin-top:28px}.btn{display:inline-block;padding:13px 21px;border-radius:999px;font-weight:800;font-size:13px;background:var(--ink);color:#fff;margin:0 8px 8px 0}.btn.light{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.photo{min-height:510px;border-radius:34px;background:#dceef2;position:relative;overflow:hidden;display:flex;align-items:flex-end;justify-content:center;padding:0 0 52px;box-shadow:0 30px 70px rgba(47,82,90,.12)}
+.photo:after{content:"ẢNH BÁNH THẬT CỦA HARMONY";position:absolute;inset:0;display:grid;place-items:center;color:#6d929c;font-size:12px;letter-spacing:.12em;font-weight:800;background:linear-gradient(180deg,rgba(255,255,255,.2),rgba(255,255,255,.55))}
+.photo .cake{position:relative;width:68%;height:210px;background:#f5e5cd;border-radius:20px 20px 13px 13px;box-shadow:0 18px 0 #dfc39e,0 38px 35px rgba(40,60,60,.18);z-index:1}.cake:before{content:"";position:absolute;left:8%;right:8%;top:16px;height:24px;background:#fffaf0;border-radius:50%}.lime{position:absolute;top:-27px;left:50%;transform:translateX(-50%);width:54px;height:54px;border-radius:50%;background:#b9d88f;border:6px solid #f7f0dc}
+section{padding:92px 0}.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:35px}.head h2{font:500 45px Georgia,serif;margin:7px 0 0}.head p{max-width:530px;color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:24px;overflow:hidden;transition:.2s}.card:hover{transform:translateY(-3px);box-shadow:0 18px 45px rgba(50,80,85,.08)}
+.cardpic{height:210px;background:linear-gradient(135deg,#eaf6f8,#faf5ec);display:grid;place-items:center;color:#6d929c;font-size:10px;letter-spacing:.12em;font-weight:800;text-align:center;padding:20px}.cardbody{padding:22px}.pill{font-size:10px;font-weight:800;letter-spacing:.12em;color:#568a98;background:var(--pale);padding:6px 9px;border-radius:99px}.card h3{font:500 25px Georgia,serif;margin:16px 0 6px}.card p{font-size:14px;color:var(--muted);min-height:48px;margin:0 0 15px}.price{font-weight:900}.price span{font-weight:500;color:var(--muted);font-size:12px}
+.feature{background:var(--ink);color:#fff}.featuregrid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.feature h2{font:500 45px Georgia,serif;margin:12px 0}.feature p{color:#cbd7da}.featurebox{border:1px solid rgba(255,255,255,.18);border-radius:28px;padding:30px;background:rgba(255,255,255,.04)}.featurebox strong{font:500 29px Georgia,serif}.featurebox li{margin:10px 0;color:#d8e2e4}
+.story{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px}.story h2{font:500 45px Georgia,serif;margin:10px 0}.story p{color:var(--muted)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{border:1px solid var(--line);background:#fff;padding:28px;border-radius:22px}.num{font-size:11px;letter-spacing:.15em;color:#6b9cab;font-weight:900}.step h3{font:500 25px Georgia,serif}
+.order{background:var(--pale)}.orderbox{display:flex;justify-content:space-between;align-items:center;gap:30px}.order h2{font:500 45px Georgia,serif;margin:10px 0}.order p{color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:12px}.footerin{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:800px){.links{display:none}.hero{padding:55px 0}.hero-grid,.featuregrid,.story{grid-template-columns:1fr;gap:38px}.photo{min-height:360px}.grid,.steps{grid-template-columns:1fr}.head,.orderbox,.footerin{display:block}.head p{margin-top:12px}.navbtn{display:none}}
+</style>
+</head>
+<body>
+<div class="top">HARMONY DESSERT · VŨNG TÀU · ĐẶT BÁNH TRƯỚC ĐỂ HARMONY CHUẨN BỊ CHU ĐÁO</div>
+
+<nav><div class="wrap navin">
+  <a class="brand" href="#">HARMONY<small>DESSERT</small></a>
+  <div class="links"><a href="#menu">MENU</a><a href="#signature">SIGNATURE</a><a href="#story">HARMONY</a><a href="#order">ĐẶT BÁNH</a></div>
+  <a class="navbtn" href="#order">Đặt bánh</a>
+</div></nav>
+
+<header class="hero"><div class="wrap hero-grid">
+  <div><div class="eyebrow">Cheesecake & desserts · Vũng Tàu</div>
+  <h1>A little harmony<br>in every bite.</h1>
+  <p>Một tiệm bánh nhỏ làm những chiếc bánh vừa đủ ngọt, vừa đủ dịu dàng — để một ngày bình thường cũng có thêm một chút vui.</p>
+  <div class="actions"><a class="btn" href="#menu">Xem menu</a><a class="btn light" href="#order">Đặt bánh</a></div></div>
+  <div class="photo"><div class="cake"><i class="lime"></i></div></div>
+</div></header>
+
+<section id="signature"><div class="wrap">
+  <div class="head"><div><div class="eyebrow">Harmony signature</div><h2>Những vị được yêu thích</h2></div><p>Lime Cheesecake là một trong những dòng bánh nổi bật của Harmony — chua nhẹ, béo vừa và dễ ăn.</p></div>
+  <div class="grid">
+    <article class="card"><div class="cardpic">THAY BẰNG ẢNH LIME CHEESECAKE</div><div class="cardbody"><span class="pill">BEST SELLER</span><h3>Lime Cheesecake</h3><p>Chua nhẹ, béo vừa, cân bằng vị để ăn không bị ngấy.</p><div class="price">Liên hệ xem size & giá <span>· menu hiện tại</span></div></div></article>
+    <article class="card"><div class="cardpic">THAY BẰNG ẢNH STRAWBERRY CHEESECAKE</div><div class="cardbody"><span class="pill">FRUITY</span><h3>Strawberry Cheesecake</h3><p>Dâu tây giúp tổng thể chiếc bánh ngọt ngào và hài hòa hơn.</p><div class="price">Liên hệ xem size & giá</div></div></article>
+    <article class="card"><div class="cardpic">THAY BẰNG ẢNH MATCHA BURNT CHEESECAKE</div><div class="cardbody"><span class="pill">SIGNATURE</span><h3>Matcha Burnt Cheesecake</h3><p>Matcha thơm nhẹ kết hợp lớp mặt burnt đặc trưng.</p><div class="price">Liên hệ xem size & giá</div></div></article>
+  </div>
+</div></section>
+
+<section id="menu"><div class="wrap">
+  <div class="head"><div><div class="eyebrow">Menu</div><h2>Menu Harmony</h2></div><p>Giá dưới đây sử dụng các mức giá Harmony đã cung cấp trước đó. Những mức chưa có dữ liệu giá hiện tại được để dạng “liên hệ” để tránh ghi sai.</p></div>
+  <div class="grid">
+    <article class="card"><div class="cardpic">ẢNH BURNT CHEESECAKE</div><div class="cardbody"><span class="pill">CLASSIC</span><h3>Burnt Cheesecake</h3><p>Lớp mặt cháy thơm, bên trong mềm mịn.</p><div class="price">85.000đ <span>/ size 8</span></div></div></article>
+    <article class="card"><div class="cardpic">ẢNH OOLONG BURNT CHEESECAKE LONGAN</div><div class="cardbody"><span class="pill">OOLONG</span><h3>Oolong Burnt Cheesecake Longan</h3><p>Oolong thơm nhẹ kết hợp vị long nhãn.</p><div class="price">85.000đ <span>/ size 8</span></div></div></article>
+    <article class="card"><div class="cardpic">ẢNH TIRABURNT CHEESECAKE</div><div class="cardbody"><span class="pill">SIGNATURE</span><h3>Tiraburnt Cheesecake</h3><p>Sự kết hợp giữa cảm hứng tiramisu và burnt cheesecake.</p><div class="price">89.000đ <span>/ size 8</span></div></div></article>
+    <article class="card"><div class="cardpic">ẢNH MANGO CHEESECAKE</div><div class="cardbody"><span class="pill">FRUITY</span><h3>Mango Cheesecake</h3><p>Vị xoài tươi sáng, cân bằng cùng nền cheesecake.</p><div class="price">169.000đ <span>/ size 10</span></div></div></article>
+    <article class="card"><div class="cardpic">ẢNH STRAWBERRY CHEESECAKE</div><div class="cardbody"><span class="pill">FRUITY</span><h3>Strawberry Cheesecake</h3><p>Một lựa chọn ngọt ngào khi muốn đổi vị từ Lime Cheesecake.</p><div class="price">Liên hệ <span>/ giá hiện tại</span></div></div></article>
+    <article class="card"><div class="cardpic">ẢNH LIME CHEESECAKE</div><div class="cardbody"><span class="pill">BEST SELLER</span><h3>Lime Cheesecake</h3><p>Vị chanh nhẹ nhàng, tươi và không quá ngọt.</p><div class="price">Liên hệ <span>/ giá hiện tại</span></div></div></article>
+  </div>
+</div></section>
+
+<section class="feature"><div class="wrap featuregrid">
+  <div><div class="eyebrow">A little note from Harmony</div><h2>Bánh ngon hơn khi ăn đúng lúc.</h2><p>Harmony khuyên bảo quản bánh trong tủ lạnh. Với cheesecake, có thể lấy bánh ra trước khoảng 15–20 phút để thưởng thức ở độ mềm và hương vị dễ chịu hơn.</p><p><strong>Bánh nên dùng trong 1–2 ngày.</strong> Với bánh có topping trái cây, nên thưởng thức sớm.</p></div>
+  <div class="featurebox"><strong>Tips để chiếc bánh ngon hơn</strong><ul><li>Bảo quản bánh trong ngăn mát.</li><li>Lấy ra 15–20 phút trước khi ăn.</li><li>Dùng bánh trong 1–2 ngày.</li><li>Bánh có trái cây: ưu tiên ăn sớm.</li></ul></div>
+</div></section>
+
+<section id="story"><div class="wrap story">
+  <div><div class="eyebrow">Our story</div><h2>Harmony bắt đầu từ sự cân bằng.</h2></div>
+  <div><p>Harmony được tạo nên từ tình yêu với những điều nhỏ bé: một chiếc bánh vừa ra lò, một buổi chiều chậm lại, một món quà dành cho người mình thương.</p><p>Và vì mỗi vị đều cần được cân bằng, Harmony muốn mang đến những món bánh hài hòa — trong hương vị, hình ảnh và cả cách bạn thưởng thức.</p><p><em>A little harmony in every bite.</em></p></div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="head"><div><div class="eyebrow">How to order</div><h2>Đặt bánh thật đơn giản</h2></div></div>
+  <div class="steps">
+    <div class="step"><div class="num">01 · CHỌN BÁNH</div><h3>Xem menu</h3><p>Chọn vị bánh và size bạn thích.</p></div>
+    <div class="step"><div class="num">02 · NHẮN HARMONY</div><h3>Chốt đơn</h3><p>Gửi ngày nhận, vị bánh và size cần đặt.</p></div>
+    <div class="step"><div class="num">03 · NHẬN BÁNH</div><h3>Thưởng thức</h3><p>Nhận bánh tại Vũng Tàu hoặc trao đổi phương án giao bánh.</p></div>
+  </div>
+</div></section>
+
+<section id="order" class="order"><div class="wrap orderbox">
+  <div><div class="eyebrow">Ready?</div><h2>Đặt một chút Harmony.</h2><p>Nút Zalo bên dưới đang để chờ số/link Zalo chính thức của tiệm.</p></div>
+  <div><a class="btn" href="https://zalo.me/" target="_blank">Đặt bánh qua Zalo</a><a class="btn light" href="https://www.facebook.com/" target="_blank">Facebook</a><a class="btn light" href="https://www.instagram.com/" target="_blank">Instagram</a></div>
+</div></section>
+
+<footer><div class="wrap footerin"><div>© 2026 Harmony Dessert · Vũng Tàu</div><div>A little harmony in every bite.</div></div></footer>
+</body></html>
